@@ -144,11 +144,11 @@ This highlights the importance of shared decision making.
 
 Treatment effects vary widely across patients.
 
-Outcome | Treatment Effect Range
-Pain reduction | -0.01 to +0.53
-Functional improvement | -0.01 to +0.53
-Rehabilitation time | +3.2 to +8.7 weeks
-Cost impact | +$10k to +$30k
+- Outcome | Treatment Effect Range
+- Pain reduction | -0.01 to +0.53
+- Functional improvement | -0.01 to +0.53
+- Rehabilitation time | +3.2 to +8.7 weeks
+- Cost impact | +$10k to +$30k
 
 This confirms that one treatment does not fit all patients.
 
