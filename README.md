@@ -30,35 +30,6 @@ Research Question:
 How can predicted treatment outcomes and patient preferences be transparently combined to support shared decision making in clinical practice?
 
 ---
-
-## Project Structure
-
-project/
-│
-├── data/
-│   ├── raw_data.csv
-│   └── processed_data.csv
-│
-├── notebooks/
-│   ├── exploratory_analysis.ipynb
-│   └── model_training.ipynb
-│
-├── models/
-│   ├── causal_models.py
-│   └── training_pipeline.py
-│
-├── cds_system/
-│   ├── preference_engine.py
-│   ├── utility_calculation.py
-│   └── recommendation_logic.py
-│
-├── prototype/
-│   └── dashboard_interface
-│
-└── README.md
-
----
-
 ## Methodology
 
 ### 1. Data Exploration and Preprocessing
