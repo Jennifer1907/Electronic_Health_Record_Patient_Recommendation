@@ -1,0 +1,71 @@
+No,Variable,Type,Len,Key,Key,Label,Category,Notes
+1,X16_CLINIC_ROOM_ID,Character,5,X16,X16,X16_clinic_room_id,Administrative,Administrative / scheduling metadata
+2,X17_PROVIDER_ID,Character,5,X17,X17,X17_provider_id,Administrative,Administrative / scheduling metadata
+3,X19_INSURANCE_VERIFIED_FLAG,Character,8,X19,X19,X19_insurance_verified_flag,Administrative,Administrative / scheduling metadata
+4,X21_REFERRAL_SOURCE,Character,10,X21,X21,X21_referral_source,Administrative,Administrative / scheduling metadata
+5,X22_APPOINTMENT_TYPE,Character,11,X22,X22,X22_appointment_type,Administrative,Administrative / scheduling metadata
+6,X33_MOBILITY_ASSESSMENT,Character,12,X33,X33,X33_mobility_assessment,Clinical,Clinical documentation metadata
+7,X34_PROVIDER_SPECIALTY_CODE,Character,5,X34,X34,X34_provider_specialty_code,Clinical,Clinical documentation metadata
+8,X38_MED_RECONCILIATION_STATUS,Character,8,X38,X38,X38_med_reconciliation_status,Clinical,Clinical documentation metadata
+9,X39_ALLERGY_VERIFICATION_FLAG,Character,3,X39,X39,X39_allergy_verification_flag,Clinical,Clinical documentation metadata
+10,X41_TEMPLATE_USED_FLAG,Character,3,X41,X41,X41_template_used_flag,Clinical,Clinical documentation metadata
+11,X43_DAY_OF_WEEK,Character,3,X43,X43,X43_day_of_week,Encounter,Encounter metadata
+12,X44_SEASON,Character,6,X44,X44,X44_season,Encounter,Encounter metadata
+13,X45_TIME_OF_DAY_BUCKET,Character,8,X45,X45,X45_time_of_day_bucket,Encounter,Encounter metadata
+14,X46_WEATHER_CONDITION,Character,6,X46,X46,X46_weather_condition,Encounter,Encounter metadata
+15,X47_PARKING_AVAILABILITY,Character,7,X47,X47,X47_parking_availability,Encounter,Encounter metadata
+16,X48_PATIENT_PORTAL_USED,Character,3,X48,X48,X48_patient_portal_used,Encounter,Encounter metadata
+17,X49_COMMUNICATION_PREF,Character,6,X49,X49,X49_communication_pref,Encounter,Encounter metadata
+18,X50_FOLLOWUP_SCHEDULED_FLAG,Character,3,X50,X50,X50_followup_scheduled_flag,Encounter,Encounter metadata
+19,X54_TRIAGE_LEVEL,Character,8,X54,X54,X54_triage_level,Encounter,Encounter metadata
+20,X55_CHECKIN_DEVICE,Character,9,X55,X55,X55_checkin_device,Encounter,Encounter metadata
+21,X56_PAYMENT_METHOD,Character,16,X56,X56,X56_payment_method,Encounter,Encounter metadata
+22,X59_COMMS_VIA_SMS_FLAG,Character,3,X59,X59,X59_comms_via_sms_flag,Encounter,Encounter metadata
+23,X60_LANGUAGE_PREF,Character,5,X60,X60,X60_language_pref,Encounter,Encounter metadata
+24,X13,Numeric,8,X13,X13,X13_check_in_ts,Administrative,Administrative / scheduling metadata
+25,X14_CHECK_OUT_TS,Numeric,8,X14,X14,X14_check_out_ts,Administrative,Administrative / scheduling metadata
+26,X18_SCHEDULED_START_TS,Numeric,8,X18,X18,X18_scheduled_start_ts,Administrative,Administrative / scheduling metadata
+27,PAT_ID,Numeric,8,PAT_ID,PAT_ID,patient_id,Administrative,
+28,CHK_HOUR,Numeric,8,CHK_HOUR,CHK_HOUR,chk_hour,Clinical,
+29,X15_ENCOUNTER_DURATION_MIN,Numeric,8,X15,X15,X15_encounter_duration_min,Administrative,Administrative / scheduling metadata
+30,X20_COPAY_AMOUNT_USD,Numeric,8,X20,X20,X20_copay_amount_usd,Administrative,Administrative / scheduling metadata
+31,X23_SYSTOLIC_BP_MMHG,Numeric,8,X23,X23,X23_systolic_bp_mmHg,Clinical,Vitals / measurements
+32,X24_DIASTOLIC_BP_MMHG,Numeric,8,X24,X24,X24_diastolic_bp_mmHg,Clinical,Vitals / measurements
+33,X25_HEART_RATE_BPM,Numeric,8,X25,X25,X25_heart_rate_bpm,Clinical,Vitals / measurements
+34,X26_RESP_RATE_BPM,Numeric,8,X26,X26,X26_resp_rate_bpm,Clinical,Vitals / measurements
+35,X27_TEMP_CELSIUS,Numeric,8,X27,X27,X27_temp_celsius,Clinical,Vitals / measurements
+36,X28_SPO2_PCT,Numeric,8,X28,X28,X28_spo2_pct,Clinical,Vitals / measurements
+37,X29_HEIGHT_CM,Numeric,8,X29,X29,X29_height_cm,Clinical,Vitals / measurements
+38,X30_WEIGHT_KG,Numeric,8,X30,X30,X30_weight_kg,Clinical,Vitals / measurements
+39,X31_BMI_KG_M2,Numeric,8,X31,X31,X31_bmi_kg_m2,Clinical,Vitals / measurements
+40,X32_PAIN_SCALE_0_10,Numeric,8,X32,X32,X32_pain_scale_0_10,Clinical,Vitals / measurements
+41,X35_DOC_COMPLETION_MINUTES,Numeric,8,X35,X35,X35_doc_completion_minutes,Clinical,Clinical documentation metadata
+42,X36_DIAGNOSES_COUNT,Numeric,8,X36,X36,X36_diagnoses_count,Clinical,Clinical documentation metadata
+43,X37_PROCEDURES_COUNT,Numeric,8,X37,X37,X37_procedures_count,Clinical,Clinical documentation metadata
+44,X40_NOTE_WORD_COUNT,Numeric,8,X40,X40,X40_note_word_count,Clinical,Clinical documentation metadata
+45,X42_MED_LIST_LENGTH,Numeric,8,X42,X42,X42_med_list_length,Clinical,Clinical documentation metadata
+46,X51_FOLLOWUP_DAYS_UNTIL,Numeric,8,X51,X51,X51_followup_days_until,Encounter,Encounter metadata
+47,X52_WAIT_TIME_MIN,Numeric,8,X52,X52,X52_wait_time_min,Encounter,Encounter metadata
+48,X53_CLINIC_DAILY_VISIT_COUNT,Numeric,8,X53,X53,X53_clinic_daily_visit_count,Encounter,Encounter metadata
+49,X57_NO_SHOW_HISTORY_6MO,Numeric,8,X57,X57,X57_no_show_history_6mo,Encounter,Encounter metadata
+50,X58_PARKING_FEE_PAID_USD,Numeric,8,X58,X58,X58_parking_fee_paid_usd,Encounter,Encounter metadata
+51,X61_CLINIC_ROOM_TEMP_C,Numeric,8,X61,X61,X61_clinic_room_temp_c,Encounter,Encounter metadata
+52,X62_ADMIN_NOTE_FREE_TEXT_LEN,Numeric,8,X62,X62,X62_admin_note_free_text_len,Encounter,Encounter metadata
+53,Y1,Numeric,8,Y1,Y1,,,
+54,Y2,Numeric,8,Y2,Y2,,,
+55,Y3,Numeric,8,Y3,Y3,,,
+56,Y4,Numeric,8,Y4,Y4,,,
+57,Y5,Numeric,8,Y5,Y5,,,
+58,T,Numeric,8,T,T,,,
+59,X1,Numeric,8,X1,X1,,,
+60,X2,Numeric,8,X2,X2,,,
+61,X3,Numeric,8,X3,X3,,,
+62,X4,Numeric,8,X4,X4,,,
+63,X5,Numeric,8,X5,X5,,,
+64,X6,Numeric,8,X6,X6,,,
+65,X7,Numeric,8,X7,X7,,,
+66,X8,Numeric,8,X8,X8,,,
+67,X9,Numeric,8,X9,X9,,,
+68,X10,Numeric,8,X10,X10,,,
+69,X11,Numeric,8,X11,X11,,,
+70,X12,Numeric,8,X12,X12,,,
